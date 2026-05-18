@@ -42,4 +42,8 @@ int main(){
     printf("\nStatus : %s", k.status);
     printf("\nGaji Pokok : %d", k.gapok);
     printf("\nTunjangan : %d", k.tunjangan);
+    printf("\nPotongan : %.0f", k.potongan);
+    printf("\nGaji Bersih : %.0f", k.bersih);
 
+    return 0;
+}
